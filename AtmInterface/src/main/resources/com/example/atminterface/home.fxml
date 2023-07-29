@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="568.0" style="-fx-background-color: #868484; -fx-background-radius: 50px;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atminterface.AtmInterface">
+   <children>
+      <Button layoutX="56.0" layoutY="108.0" mnemonicParsing="false" onAction="#CW" prefHeight="70.0" prefWidth="124.0" style="-fx-background-color: white;" text="Cash Withdraw">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="56.0" layoutY="236.0" mnemonicParsing="false" onAction="#CP" prefHeight="70.0" prefWidth="124.0" style="-fx-background-color: white;" text="Change Pin ">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="379.0" layoutY="108.0" mnemonicParsing="false" onAction="#D" prefHeight="70.0" prefWidth="124.0" style="-fx-background-color: white;" text="Deposit">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="379.0" layoutY="236.0" mnemonicParsing="false" onAction="#B" prefHeight="70.0" prefWidth="124.0" style="-fx-background-color: white;" text="Balance">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" prefHeight="77.0" prefWidth="555.0" style="-fx-background-color: #ff9447; -fx-background-radius: 50px;" text="ATM">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.atminterface.AtmInterface">
+   <children>
+      <Text layoutX="53.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Old Pin" wrappingWidth="169.9912109375">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="53.0" layoutY="225.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ReEnter New Pin" wrappingWidth="199.9912109375">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="pinField" layoutX="275.0" layoutY="67.0" prefHeight="39.0" prefWidth="224.0" promptText="4 digit pin">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <PasswordField fx:id="confirmFeld" layoutX="275.0" layoutY="197.0" prefHeight="39.0" prefWidth="224.0" promptText="4 digit pin">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Text layoutX="53.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter New Pin" wrappingWidth="169.9912109375">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="newpinField" layoutX="275.0" layoutY="130.0" prefHeight="39.0" prefWidth="224.0" promptText="4 digit pin">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="195.0" layoutY="273.0" mnemonicParsing="false" onAction="#ChangePin" style="-fx-background-color: #0077ff;" text="Change Pin" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="28.0" layoutY="356.0" mnemonicParsing="false" onAction="#Back" style="-fx-background-color: #ff7c35;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
